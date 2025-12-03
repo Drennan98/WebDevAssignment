@@ -1,7 +1,7 @@
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 20px;;
   background: #2c7a7b;
   color: white;
   text-decoration: none;
@@ -10,4 +10,13 @@
 }
 .btn:hover {
   background: #285e61;
+}
+
+nav {
+  position: absolute;  /* keeps them at the top */
+  top: 90px;           /* distance from top */
+  left: 50%;          /* centers the nav */
+  transform: translateX(-50%); /* centers the nav */
+  display: flex;       /* keeps them in a row */
+  gap: 15px;
 }
