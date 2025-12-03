@@ -1,3 +1,7 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 .btn {
   display: inline-block;
@@ -19,4 +23,21 @@ nav {
   transform: translateX(-50%); /* centers the nav */
   display: flex;       /* keeps them in a row */
   gap: 15px;
+}
+
+body {
+    background-color: #FBC428;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:hover {
+    color: #D36135;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
 }
