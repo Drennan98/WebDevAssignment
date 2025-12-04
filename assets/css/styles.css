@@ -102,7 +102,7 @@ ul { list-style: none; }
 /* --- Hero Section --- */
 .hero {
     height: 90vh;
-    background: url('https://images.unsplash.com/photo-1535132012586-18711b79799c?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    background: url('../images/nice-golf-course.jpg') no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
