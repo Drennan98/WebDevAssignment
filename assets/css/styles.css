@@ -1,3 +1,5 @@
+/* -- Highest level element styles and CSS Variables -- */
+
 :root {
     --primary-green: #1e4d2b; /* Deep Forest Green */
     --accent-green: #4caf50;  /* Fresh Grass Green */
@@ -7,6 +9,8 @@
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Lato', sans-serif;
 }
+
+/* -- Selects all HTML elements -- */
 
 * {
     margin: 0;
@@ -22,6 +26,7 @@ body {
 }
 
 a { text-decoration: none; color: inherit; }
+
 ul { list-style: none; }
 
 /* --- Utility Classes --- */
@@ -249,4 +254,64 @@ footer {
     .about-grid { grid-template-columns: 1fr; }
     .about-image { order: -1; } /* Image on top on mobile */
     .btn { width: 100%; text-align: center; margin: 5px 0; }
-}
+} 
+
+
+
+  /* body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .message {
+            margin-top: 15px;
+            text-align: center;
+            color: green;
+            font-weight: bold;
+        } */
