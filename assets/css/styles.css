@@ -130,6 +130,14 @@ ul { list-style: none; }
     font-weight: 300;
 }
 
+.our-legacy {
+    color: var(--primary-green);
+}
+
+.seventy-years {
+    color: var( --text-dark);
+}
+
 /* --- Info Bar --- */
 .info-bar {
     background-color: var(--sand);
@@ -256,7 +264,7 @@ footer {
 /* Page Hero (Shorter than Main Hero) */
 .page-hero {
     height: 50vh; /* Takes up 50% of the screen height */
-    background: url('https://images.unsplash.com/photo-1623567341691-1f48c5e269ba?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    background: url('../images/nice-golf-course.jpg') no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
