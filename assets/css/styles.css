@@ -102,7 +102,7 @@ ul { list-style: none; }
 /* --- Hero Section --- */
 .hero {
     height: 90vh;
-    background: url('../images/nice-golf-course.jpg') no-repeat center center/cover;
+    background: url('../images/ocean-with-green.jpg') no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -250,11 +250,6 @@ footer {
     .btn { width: 100%; text-align: center; margin: 5px 0; }
 } 
 
-
-
-Darragh Drennan
-2:51 PM (2 minutes ago)
-to me
 
 /* --- ABOUT PAGE STYLES --- */
 
