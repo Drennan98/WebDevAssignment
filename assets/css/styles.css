@@ -49,6 +49,10 @@ ul { list-style: none; }
     font-size: 0.9rem;
 }
 
+.exclusive-club, .eighteen-holes {
+    color: var(--text-light);
+}
+
 .btn-primary {
     background-color: var(--accent-green);
     color: white;
@@ -265,7 +269,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var( --text-dark);
+    color: var( --text-light);
 }
 
 .hero-text { position: relative; z-index: 1; }
@@ -355,10 +359,6 @@ footer {
 
 /* --- PRO SHOP SPECIFIC STYLES --- */
 
-.shop-hero {
-    /* Slightly different image for shop hero */
-    background: url('https://images.unsplash.com/photo-1616421360667-2c5240c5f94d?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
-}
 
 /* Filter Buttons */
 .filter-container {
