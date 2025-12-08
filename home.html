@@ -1,14 +1,9 @@
-
-Darragh Drennan
-11:16 AM (0 minutes ago)
-to me
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Darragh's Golf Club</title>
+    <title>Darragh's Golf Club</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -16,7 +11,7 @@ to me
 
     <nav class="navbar">
         <div class="container nav-flex">
-            <a href="home.html" class="logo">Darragh's Golf Club</a>
+            <a href="#" class="logo">Darragh's Golf Club</a>
             <ul class="nav-links">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
@@ -32,86 +27,71 @@ to me
         </div>
     </nav>
 
-    <header class="page-hero shop-hero">
+    <header class="hero">
         <div class="hero-overlay"></div>
-        <div class="container hero-text">
-            <h1>The Pro Shop</h1>
-            <p>Premium equipment and apparel for the discerning golfer.</p>
+        <div class="hero-content">
+            <h1>Join our exclusive club now</h1>
+            <p class="eighteen-holes">18 holes of championship golf</p>
+            <a href="membership.html" class="btn btn-primary">Become a member today!</a>
+            <a href="contact.html" class="btn btn-secondary">Contact us!</a>
         </div>
     </header>
 
-    <section class="shop-section section-padding">
-        <div class="container">
-           
-            <div class="filter-container">
-                <button class="filter-btn active" onclick="filterProducts('all', this)">All Products</button>
-                <button class="filter-btn" onclick="filterProducts('clubs', this)">Clubs</button>
-                <button class="filter-btn" onclick="filterProducts('apparel', this)">Apparel</button>
-                <button class="filter-btn" onclick="filterProducts('tech', this)">Tech & Balls</button>
+    <section class="info-bar">
+        <div class="container info-grid">
+            <div class="info-item">
+                <h3>Open Daily</h3>
+                <p>6:00 AM - 8:00 PM</p>
             </div>
+            <div class="info-item">
+                <h3>Membership</h3>
+                <p>Pick an option that suits you</p>
+            </div>
+            <div class="info-item">
+                <h3>Pro Shop</h3>
+                <p>Fully Stocked & Fitting</p>
+            </div>
+        </div>
+    </section>
 
-            <div class="shop-grid">
-               
-                <div class="product-card" data-category="clubs">
-                    <div class="product-img">
-                        <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=600&q=80" alt="Driver">
-                    </div>
-                    <div class="product-info">
-                        <span class="category-tag">Clubs</span>
-                        <h3>Titanium Driver TS2</h3>
-                        <p class="price">$499.00</p>
-                        <button class="btn btn-primary add-cart-btn">Add to Cart</button>
+    <section class="features section-padding" id="course">
+        <div class="container">
+            <h2 class="section-title">World Class Services</h2>
+            <div class="feature-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80" alt="The Course">
+                    <div class="card-body">
+                        <h3>The Championship Course</h3>
+                        <p>Designed by legends, our par-72 course offers a challenge for pros and enjoyment for amateurs.</p>
+                    </div>  
+                </div>
+                <div class="card">
+                    <img src="assets/images/golf-course.jpg" alt="Pro Shop">
+                    <div class="card-body">
+                        <h3>Pro Shop</h3>
+                        <p>Improve your swing with private lessons from our resident PGA certified professionals.</p>
                     </div>
                 </div>
-
-                <div class="product-card" data-category="apparel">
-                    <div class="product-img">
-                        <img src="https://images.unsplash.com/photo-1596277067828-522198084a95?auto=format&fit=crop&w=600&q=80" alt="Polo">
-                    </div>
-                    <div class="product-info">
-                        <span class="category-tag">Apparel</span>
-                        <h3>Darragh's Performance Polo</h3>
-                        <p class="price">$85.00</p>
-                        <button class="btn btn-primary add-cart-btn">Add to Cart</button>
+                <div class="card">
+                    <img src="assets/images/equipment.jpg" alt="Golfer with latest 6 iron">
+                    <div class="card-body">
+                        <h3>Equipment</h3>
+                        <p>Browse the latest equipment</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="product-card" data-category="tech">
-                    <div class="product-img">
-                        <img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=600&q=80" alt="Golf Balls">
-                    </div>
-                    <div class="product-info">
-                        <span class="category-tag">Accessories</span>
-                        <h3>Pro V1 Sleeve (3 Pack)</h3>
-                        <p class="price">$15.00</p>
-                        <button class="btn btn-primary add-cart-btn">Add to Cart</button>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="clubs">
-                    <div class="product-img">
-                        <img src="https://images.unsplash.com/photo-1592919505780-30395071e867?auto=format&fit=crop&w=600&q=80" alt="Putter">
-                    </div>
-                    <div class="product-info">
-                        <span class="category-tag">Clubs</span>
-                        <h3>Precision Milled Putter</h3>
-                        <p class="price">$350.00</p>
-                        <button class="btn btn-primary add-cart-btn">Add to Cart</button>
-                    </div>
-                </div>
-
-                <div class="product-card" data-category="apparel">
-                    <div class="product-img">
-                        <img src="https://images.unsplash.com/photo-1589133596773-671239c086d3?auto=format&fit=crop&w=600&q=80" alt="Hat">
-                    </div>
-                    <div class="product-info">
-                        <span class="category-tag">Apparel</span>
-                        <h3>Club Logo Snapback</h3>
-                        <p class="price">$35.00</p>
-                        <button class="btn btn-primary add-cart-btn">Add to Cart</button>
-                    </div>
-                </div>
-
+    <section class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>Click link to buy the latest equipment!</h2>
+                <p>TEST</p>
+                <a href="#" class="btn btn-primary">Buy equipment</a>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80" alt="Golfer putting">
             </div>
         </div>
     </section>
@@ -119,22 +99,25 @@ to me
     <footer>
         <div class="container footer-content">
             <div class="footer-col">
-                <h3>Darragh's Golf Club</h3>
-                <p>Est. 2025</p>
+                <h3>Darragh's Golf club</h3>
+                <p>5 Star Golf Club</p>
             </div>
             <div class="footer-col">
-                <h4>Pro Shop</h4>
-                <p>Open Daily: 7am - 7pm</p>
-                <p>shop@darraghsgolf.com</p>
+                <h4>Contact</h4>
+                <p>1234567</p>
+                <p>info@golfclub.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Social</h4>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 202 Darragh's Golf Club. All Rights Reserved.</p>
+            <p>&copy; 2025 Darragh's Golf Club. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <div id="toast" class="toast">Item added to cart!</div>
-
-    <script src="shop.js"></script>
 </body>
 </html>
