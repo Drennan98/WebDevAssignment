@@ -476,3 +476,100 @@ footer {
     opacity: 1;
     bottom: 50px; /* Moves up slightly when shown */
 }
+
+
+Darragh Drennan
+11:39 AM (0 minutes ago)
+to me
+
+/* --- MEMBERSHIP PAGE SPECIFIC STYLES --- */
+
+/* Style the cards to look like pricing tables */
+.membership-card {
+    text-align: center;
+    padding: 0; /* Remove default card padding */
+    border: 1px solid var(--sand);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.membership-card .card-body {
+    padding: 35px 25px; /* Increase padding in the body */
+}
+
+.membership-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+/* Pricing Style */
+.membership-price {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-green);
+    margin: 10px 0 15px 0;
+    line-height: 1;
+}
+
+.membership-price span {
+    font-size: 0.5em; /* Smaller unit text (e.g., /Year) */
+    font-family: var(--font-body);
+    font-weight: 400;
+    color: #888;
+    display: block;
+}
+
+/* Feature List Styling */
+.membership-card ul {
+    list-style: none;
+    padding-left: 0 !important; /* Override inline style in HTML */
+    margin-top: 25px !important;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.membership-card ul li {
+    padding: 8px 0;
+    font-size: 1rem;
+    color: #555;
+    border-bottom: 1px dashed var(--sand);
+}
+
+.membership-card ul li:last-child {
+    border-bottom: none;
+}
+
+/* Highlight the Platinum (Premium) Tier */
+.platinum-tier {
+    /* Uses the accent color for a stronger visual impact */
+    border: 3px solid var(--accent-green);
+    transform: scale(1.03); /* Makes it slightly larger */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    background-color: var(--sand); /* Light background to make the green pop */
+    z-index: 10;
+}
+
+.platinum-tier .membership-price {
+    color: var(--accent-green);
+}
+
+.platinum-tier:hover {
+    transform: translateY(-5px) scale(1.03); /* Maintain scale and add hover lift */
+}
+
+/* Call-to-Action Text Block */
+.cta-box {
+    background-color: var(--primary-green);
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cta-box h3 {
+    font-family: var(--font-heading);
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
