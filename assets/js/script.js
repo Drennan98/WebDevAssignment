@@ -1,6 +1,3 @@
-/* ================================
-   1. Product Filtering
-================================ */
 function filterProducts(category, btnElement) {
     const products = document.querySelectorAll('.product-card');
     const buttons = document.querySelectorAll('.filter-btn');
@@ -25,11 +22,6 @@ function filterProducts(category, btnElement) {
     });
 }
 
-
-
-/* ================================
-   2. Shop Cart Logic (Pro Shop)
-================================ */
 document.addEventListener("DOMContentLoaded", () => {
 
     let cartCount = 0;
@@ -54,12 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
             toast.classList.remove("show");
         }, 3000);
     }
-
-
-
-    /* ================================
-       3. Membership Cart Logic
-    ================================= */
 
     const membershipButtons = document.querySelectorAll(".membership-card .btn");
     const cartList = document.getElementById("cart-items");
