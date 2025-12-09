@@ -297,6 +297,7 @@ footer {
     font-weight: 700;
     letter-spacing: 2px;
     font-size: 0.8rem;
+    margin-bottom: 15px;
 }
 
 .story-content h2 {
@@ -477,11 +478,6 @@ footer {
     bottom: 50px; /* Moves up slightly when shown */
 }
 
-
-Darragh Drennan
-11:39 AM (0 minutes ago)
-to me
-
 /* --- MEMBERSHIP PAGE SPECIFIC STYLES --- */
 
 /* Style the cards to look like pricing tables */
@@ -556,6 +552,10 @@ to me
 
 .platinum-tier:hover {
     transform: translateY(-5px) scale(1.03); /* Maintain scale and add hover lift */
+}
+
+.tiers {
+    margin-top: 20px;
 }
 
 /* Call-to-Action Text Block */
