@@ -19,6 +19,12 @@
                 <li><a href="shop.html">Pro Shop</a></li>
                 <li><a href="membership.html">Membership</a></li>
                 <li><a href="contact.html" class="btn-nav">Contact</a></li>
+
+                <li>
+                    <a href="#" class="cart-icon">
+                        🛒 <span id="cart-count">0</span>
+                    </a>
+                </li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -52,7 +58,6 @@
                             <li>• Free Access to All Competitions</li>
                             <li>• 20% Pro Shop Discount</li>
                         </ul>
-                        <a href="#" class="btn btn-primary" style="margin-top: 25px;">Select Platinum</a>
                     </div>
                 </div>
 
@@ -67,7 +72,6 @@
                             <li>• Discounted Competition Entry</li>
                             <li>• 10% Pro Shop Discount</li>
                         </ul>
-                        <a href="#" class="btn btn-secondary" style="margin-top: 25px;">Select Gold</a>
                     </div>
                 </div>
 
@@ -82,7 +86,6 @@
                             <li>• Access to Junior Competitions</li>
                             <li>• Dedicated Club Handbook</li>
                         </ul>
-                        <a href="#" class="btn btn-primary" style="margin-top: 25px;">Select Junior</a>
                     </div>
                 </div>
 
@@ -124,7 +127,7 @@
                     <a href="contact.html" class="btn btn-secondary">Contact Enrollment</a>
                 </div>
                 <div class="about-image">
-                    <img src="../images/clubhouse-interior.jpg" alt="Clubhouse Interior">
+                    <img src="assets/images/clubhouse-interior.jpg" alt="Clubhouse Interior">
                 </div>
             </div>
         </div>
@@ -151,5 +154,14 @@
             </div>
         </div>
     </footer>
+
+    <!-- Simple Cart Box -->
+    <div id="membership-cart" class="cart-box">
+        <h4>Membership Cart</h4>
+        <ul id="cart-items"></ul>
+        <p id="empty-cart">Your cart is empty.</p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
