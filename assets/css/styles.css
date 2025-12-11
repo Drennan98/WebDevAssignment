@@ -82,16 +82,6 @@ form {
 
 .btn-primary:hover { background-color: var(--primary-green); }
 
-.btn-secondary {
-    color: white;
-    background-color: #4caf50;
-    margin-left: 10px;
-}
-
-.btn-secondary:hover { 
-    background-color: white;
-    color: var(--text-dark); 
-}
 
 /* Navbar */
 .navbar {
