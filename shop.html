@@ -138,9 +138,28 @@
         <div class="copyright">
             <p>&copy; 2025 Darragh's Golf Club. All Rights Reserved.</p>
         </div>
+
     </footer>
 
     <div id="toast" class="toast">Item added to cart!</div>
+
+     <div id="cart-drawer" class="cart-drawer">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="close-cart" class="close-btn">×</button>
+        </div>
+
+        <ul id="cart-items"></ul>
+
+        <p id="empty-cart" class="empty-cart">Your cart is empty.</p>
+
+        <div class="cart-footer">
+            <p><strong>Total:</strong> €<span id="cart-total">0.00</span></p>
+        </div>
+    </div>
+
+    <!-- BACKDROP -->
+    <div id="cart-overlay" class="cart-overlay"></div>
 
     <script src="assets/js/script.js"></script>
 </body>
