@@ -1,6 +1,3 @@
-/* ------------------------------
-   PRODUCT FILTERING
------------------------------- */
 function filterProducts(category, btnElement) {
     const products = document.querySelectorAll('.product-card');
     const buttons = document.querySelectorAll('.filter-btn');
@@ -65,15 +62,18 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // Show toast notification. 
     function showToast() {
         toast.classList.add("show");
         setTimeout(() => toast.classList.remove("show"), 2500);
     }
 
+    // Save cart to localStorage. Cart is the key used. Cart being converted to string using JSON.stringify. 
     function saveCart() {
         localStorage.setItem("cart", JSON.stringify(cart));
     }
 
+    // Render cart items. 
     function renderCart() {
         cartList.innerHTML = "";
 
