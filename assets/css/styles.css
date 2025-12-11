@@ -25,9 +25,14 @@ body {
     background-color: #fff;
 }
 
-a { text-decoration: none; color: inherit; }
+a { 
+    text-decoration: none;
+    color: inherit; 
+}
 
-ul { list-style: none; }
+ul { 
+    list-style: none;
+}
 
 /* Utility classes */
 .container {
@@ -40,7 +45,20 @@ textarea {
     margin-top: 10px;
 }
 
-.section-padding { padding: 80px 0; }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-button {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.section-padding { 
+    padding: 80px 0; 
+}
 
 .btn {
     display: inline-block;
@@ -104,22 +122,14 @@ textarea {
     align-items: center;
     gap: 30px; 
 }
+
 .nav-links a { 
     font-size: 0.9rem; 
     font-weight: 400;
     transition: color 0.3s; 
 }
-.nav-links a:hover { color: var(--accent-green); }
 
-.btn-nav {
-    border: 1px solid white;
-    padding: 8px 20px;
-    border-radius: 4px;
-}
-.btn-nav:hover { 
-    background: white; 
-    color: var(--primary-green); 
-}
+.nav-links a:hover { color: var(--accent-green); }
 
 /* Hero section */
 .hero {
@@ -258,6 +268,7 @@ footer {
     font-size: 1.5rem;
     margin-bottom: 10px; 
 }
+
 .footer-col h4 { 
     margin-bottom: 15px;
     color: var(--accent-green);
@@ -265,11 +276,13 @@ footer {
     letter-spacing: 1px;
     font-size: 0.9rem; 
 }
+
 .footer-col a { 
     display: block;
     margin-bottom: 8px;
     opacity: 0.8; 
 }
+
 .footer-col a:hover { 
     opacity: 1; 
     color: var(--accent-green); 
@@ -558,7 +571,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* Toast Notification (Popup) */
+/* Toast pop up */
 .toast {
     visibility: hidden;
     min-width: 250px;
@@ -583,14 +596,14 @@ footer {
     bottom: 50px; /* Moves up slightly when shown */
 }
 
-/* --- MEMBERSHIP PAGE SPECIFIC STYLES --- */
+/* Membership page styles */
 
 /* Style the cards to look like pricing tables */
 .membership-card {
     text-align: center;
     padding: 0; /* Remove default card padding */
     border: 1px solid var(--sand);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 10px 50px 15px rgba(0,0,0,0.25);
     min-height: 300px;
 }
 
