@@ -1,4 +1,4 @@
-/* -- Highest level element styles and CSS Variables -- */
+/* Highest level element styles and CSS Variables */
 
 :root {
     --primary-green: #1e4d2b; /* Deep Forest Green */
@@ -10,7 +10,7 @@
     --font-body: 'Lato', sans-serif;
 }
 
-/* -- Selects all HTML elements -- */
+/* Selects all HTML elements */
 
 * {
     margin: 0;
@@ -29,7 +29,7 @@ a { text-decoration: none; color: inherit; }
 
 ul { list-style: none; }
 
-/* --- Utility Classes --- */
+/* Utility classes */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -66,9 +66,12 @@ ul { list-style: none; }
     margin-left: 10px;
 }
 
-.btn-secondary:hover { background-color: white; color: var(--text-dark); }
+.btn-secondary:hover { 
+    background-color: white;
+    color: var(--text-dark); 
+}
 
-/* --- Navbar --- */
+/* Navbar */
 .navbar {
     background-color: var(--primary-green);
     color: white;
@@ -92,8 +95,16 @@ ul { list-style: none; }
     letter-spacing: 1px;
 }
 
-.nav-links { display: flex; align-items: center; gap: 30px; }
-.nav-links a { font-size: 0.9rem; font-weight: 400; transition: color 0.3s; }
+.nav-links { 
+    display: flex; 
+    align-items: center;
+    gap: 30px; 
+}
+.nav-links a { 
+    font-size: 0.9rem; 
+    font-weight: 400;
+    transition: color 0.3s; 
+}
 .nav-links a:hover { color: var(--accent-green); }
 
 .btn-nav {
@@ -101,9 +112,12 @@ ul { list-style: none; }
     padding: 8px 20px;
     border-radius: 4px;
 }
-.btn-nav:hover { background: white; color: var(--primary-green); }
+.btn-nav:hover { 
+    background: white; 
+    color: var(--primary-green); 
+}
 
-/* --- Hero Section --- */
+/* Hero section */
 .hero {
     height: 90vh;
     background: url('../images/ocean-with-green.jpg') no-repeat center center/cover;
@@ -137,7 +151,7 @@ ul { list-style: none; }
     color: var(--text-light);
 }
 
-/* --- Info Bar --- */
+/* Info bar */
 .info-bar {
     background-color: var(--sand);
     padding: 40px 0;
@@ -157,7 +171,7 @@ ul { list-style: none; }
     margin-bottom: 5px;
 }
 
-/* --- Features Section --- */
+/* Features section */
 .section-title {
     text-align: center;
     font-family: var(--font-heading);
@@ -196,7 +210,7 @@ ul { list-style: none; }
     color: var(--primary-green);
 }
 
-/* --- About Section --- */
+/* About section */
 .about { background-color: var(--sand); }
 
 .about-grid {
@@ -221,7 +235,7 @@ ul { list-style: none; }
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* --- Footer --- */
+/* Footer */
 footer {
     background-color: var(--primary-green);
     color: white;
@@ -235,10 +249,27 @@ footer {
     margin-bottom: 40px;
 }
 
-.footer-col h3 { font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 10px; }
-.footer-col h4 { margin-bottom: 15px; color: var(--accent-green); text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
-.footer-col a { display: block; margin-bottom: 8px; opacity: 0.8; }
-.footer-col a:hover { opacity: 1; color: var(--accent-green); }
+.footer-col h3 { 
+    font-family: var(--font-heading); 
+    font-size: 1.5rem;
+    margin-bottom: 10px; 
+}
+.footer-col h4 { 
+    margin-bottom: 15px;
+    color: var(--accent-green);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem; 
+}
+.footer-col a { 
+    display: block;
+    margin-bottom: 8px;
+    opacity: 0.8; 
+}
+.footer-col a:hover { 
+    opacity: 1; 
+    color: var(--accent-green); 
+}
 
 .copyright {
     background-color: #14351e; /* Darker shade of primary */
@@ -248,17 +279,35 @@ footer {
     opacity: 0.7;
 }
 
-/* --- Mobile Responsiveness --- */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
-    .nav-links { display: none; } /* Simplified for demo */
-    .hero-content h1 { font-size: 2.5rem; }
-    .about-grid { grid-template-columns: 1fr; }
-    .about-image { order: -1; } /* Image on top on mobile */
-    .btn { width: 100%; text-align: center; margin: 5px 0; }
+    
+    .nav-links { 
+    display: none; 
+    }
+    
+    .hero-content h1 { 
+        font-size: 2.5rem; 
+    }
+    
+    .about-grid { 
+        grid-template-columns: 1fr; 
+    }
+    
+    .about-image { 
+        order: -1; 
+    } 
+    
+    .btn { 
+    width: 100%; 
+    text-align: center;
+    margin: 5px 0; 
+}
+
 } 
 
 
-/* --- ABOUT PAGE STYLES --- */
+/* About page styles */
 
 /* Page Hero (Shorter than Main Hero) */
 .page-hero, .shop-hero {
@@ -272,10 +321,17 @@ footer {
     color: var( --text-light);
 }
 
-.hero-text { position: relative; z-index: 1; }
-.hero-text h1 { font-family: var(--font-heading); font-size: 3rem; }
+.hero-text { 
+    position: relative; 
+    z-index: 1; 
+}
 
-/* Story Section (Split Layout) */
+.hero-text h1 { 
+    font-family: var(--font-heading);
+    font-size: 3rem; 
+}
+
+/* Story section (Split Layout) */
 .story-flex {
     display: flex;
     align-items: center;
@@ -283,12 +339,13 @@ footer {
 }
 
 .story-image { flex: 1; }
+
 .story-content { flex: 1; }
 
 .story-image img {
     width: 100%;
     border-radius: 4px;
-    box-shadow: 15px 15px 0px var(--sand); /* Creates a decorative offset border */
+    box-shadow: 15px 15px 0px var(--sand);
 }
 
 .pre-heading {
@@ -307,8 +364,16 @@ footer {
     margin: 10px 0 20px 0;
 }
 
-.story-content p { margin-bottom: 20px; color: #555; }
-.signature { width: 150px; opacity: 0.6; margin-top: 10px; }
+.story-content p { 
+    margin-bottom: 20px; 
+    color: #555; 
+}
+
+.signature { 
+    width: 150px; 
+    opacity: 0.6;
+    margin-top: 10px; 
+}
 
 /* Stats Bar */
 .stats {
@@ -326,8 +391,18 @@ footer {
     padding: 20px 0;
 }
 
-.stat-item h3 { font-family: var(--font-heading); font-size: 2.5rem; color: var(--accent-green); }
-.stat-item p { text-transform: uppercase; letter-spacing: 1px; font-size: 0.8rem; margin-top: 5px; }
+.stat-item h3 { 
+    font-family: var(--font-heading);
+    font-size: 2.5rem; 
+    color: var(--accent-green);
+}
+
+.stat-item p { 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin-top: 5px; 
+}
 
 /* Team Section */
 .team-grid {
@@ -347,15 +422,41 @@ footer {
     border: 5px solid var(--sand);
 }
 
-.team-card h3 { font-family: var(--font-heading); color: var(--primary-green); margin-bottom: 5px; }
-.role { color: var(--accent-green); font-weight: 700; font-size: 0.9rem; margin-bottom: 10px; text-transform: uppercase; }
-.bio { font-size: 0.95rem; color: #666; }
+.team-card h3 { 
+    font-family: var(--font-heading);
+    color: var(--primary-green); 
+    margin-bottom: 5px; 
+}
+
+.role { 
+    color: var(--accent-green);
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.bio { 
+    font-size: 0.95rem;
+    color: #666; 
+}
 
 /* Mobile Responsiveness for About Page */
 @media (max-width: 768px) {
-    .story-flex { flex-direction: column; }
-    .story-image img { box-shadow: none; margin-bottom: 20px; }
-    .stats-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+    
+    .story-flex { 
+        flex-direction: column; 
+    }
+    
+    .story-image img { 
+        box-shadow: none;
+        margin-bottom: 20px; 
+    }
+
+    .stats-grid { 
+        grid-template-columns: 1fr 1fr;
+        gap: 30px; 
+    }
 }
 
 /* --- PRO SHOP SPECIFIC STYLES --- */
