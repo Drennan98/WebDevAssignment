@@ -345,9 +345,7 @@ footer {
     gap: 60px;
 }
 
-.story-image { flex: 1; }
-
-.story-content { flex: 1; }
+.story-image, .story-content { flex: 1; }
 
 .story-image img {
     width: 100%;
