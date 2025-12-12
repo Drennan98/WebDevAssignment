@@ -118,3 +118,19 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initial counter
     updateCartCounter();
 });
+
+
+// Scroll to top button for the user. 
+const scrollTopButton = document.getElementById('scrollTopButton');
+
+window.addEventListener('scroll', function() {
+    if(this.window.scrollY > 900) {
+        scrollTopButton.style.display = 'block';
+    } else {
+        scrollTopButton.style.display = 'none';
+    }
+});
+
+scrollTopButton.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
