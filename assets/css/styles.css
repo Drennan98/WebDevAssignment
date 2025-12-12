@@ -465,7 +465,6 @@ footer {
 
 /* --- PRO SHOP SPECIFIC STYLES --- */
 
-
 /* Filter Buttons */
 .filter-container {
     display: flex;
@@ -746,10 +745,6 @@ form {
     height: 90vh;
 }
 
-/* ------------------------------
-    FORM SECTION ONLY
------------------------------- */
-
 main {
     padding: 60px 0;
     display: flex;
@@ -818,11 +813,10 @@ form textarea:focus {
     background: var(--accent-green);
 }
 
- iframe {
-      width: 50%;
-      height: 100%;
-      min-height: 400px;
-      border: 0;
-      padding-left: 40px;
-      padding-top: 60px;
-    }
+iframe {
+    width: 50%;
+    height: 100%;
+    min-height: 400px;
+    border: 0;
+    padding: 30px;
+}
