@@ -821,6 +821,8 @@ iframe {
     padding: 30px;
 }
 
+/* Scroll to top button styles */ 
+
 #scrollTopButton {
     position: fixed;
     bottom: 20px;
