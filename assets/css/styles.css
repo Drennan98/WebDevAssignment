@@ -465,6 +465,7 @@ footer {
 
 /* --- PRO SHOP SPECIFIC STYLES --- */
 
+
 /* Filter Buttons */
 .filter-container {
     display: flex;
@@ -643,9 +644,8 @@ footer {
 
 /* Highlight the Platinum (Premium) Tier */
 .platinum-tier {
-    /* Uses the accent color for a stronger visual impact */
     border: 3px solid var(--accent-green);
-    transform: scale(1.03); /* Makes it slightly larger */
+    transform: scale(1.03);
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     background-color: var(--sand); /* Light background to make the green pop */
     z-index: 10;
