@@ -830,3 +830,34 @@ iframe {
     color: black;
     opacity: 80%;
 }
+
+/* Hide the navigation links by default on small screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* Show the hamburger icon */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: #fff;
+        transition: 0.3s ease;
+    }
+
+    /* Show the nav-links when 'active' class is added */
+    .nav-links.active {
+        display: flex;
+    }
+}
+
