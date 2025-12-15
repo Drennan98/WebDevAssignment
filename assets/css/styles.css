@@ -815,7 +815,6 @@ form textarea:focus {
 
 iframe {
     width: 50%;
-    height: 100%;
     min-height: 400px;
     border: 0;
     padding: 30px;
