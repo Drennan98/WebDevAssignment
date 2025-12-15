@@ -859,5 +859,9 @@ iframe {
     .nav-links.active {
         display: flex;
     }
+
+    .tiers {
+        width: 50%;
+    }
 }
 
