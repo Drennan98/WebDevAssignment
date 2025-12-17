@@ -198,7 +198,7 @@ form {
     transition: transform 0.3s ease;
 }
 
-.card:hover { transform: translateY(-5px); }
+.card:hover { transform: translateY(-80px); }
 
 .card img {
     width: 100%;
