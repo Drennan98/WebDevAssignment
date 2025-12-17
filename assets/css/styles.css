@@ -80,7 +80,9 @@ form {
     color: white;
 }
 
-.btn-primary:hover { background-color: var(--primary-green); }
+.btn-primary:hover { 
+    background-color: var(--primary-green); 
+}
 
 
 /* Navbar */
@@ -119,7 +121,9 @@ form {
     transition: color 0.3s; 
 }
 
-.nav-links a:hover { color: var(--accent-green); }
+.nav-links a:hover { 
+    color: var(--accent-green); 
+}
 
 /* Hero section */
 .hero {
@@ -198,7 +202,9 @@ form {
     transition: transform 0.3s ease;
 }
 
-.card:hover { transform: translateY(-80px); }
+.card:hover { 
+    transform: translateY(-80px); 
+}
 
 .card img {
     width: 100%;
@@ -206,7 +212,9 @@ form {
     object-fit: cover;
 }
 
-.card-body { padding: 25px; }
+.card-body { 
+    padding: 25px; 
+}
 
 .card-body h3 {
     font-family: var(--font-heading);
@@ -215,7 +223,9 @@ form {
 }
 
 /* About section */
-.about { background-color: var(--sand); }
+.about { 
+    background-color: var(--sand); 
+}
 
 .about-grid {
     display: grid;
@@ -231,7 +241,10 @@ form {
     margin-bottom: 20px;
 }
 
-.about-text p { margin-bottom: 25px; color: #555; }
+.about-text p { 
+    margin-bottom: 25px; 
+    color: #555; 
+}
 
 .about-image img {
     width: 100%;
@@ -344,7 +357,9 @@ footer {
     gap: 60px;
 }
 
-.story-image, .story-content { flex: 1; }
+.story-image, .story-content { 
+    flex: 1; 
+}
 
 .story-image img {
     width: 100%;
@@ -415,7 +430,9 @@ footer {
     gap: 40px;
 }
 
-.team-card { text-align: center; }
+.team-card { 
+    text-align: center; 
+}
 
 .team-card img {
     width: 200px;
@@ -463,7 +480,7 @@ footer {
     }
 }
 
-/* --- PRO SHOP SPECIFIC STYLES --- */
+/* Pro Shop Styles */
 
 
 /* Filter Buttons */
@@ -483,7 +500,7 @@ footer {
     font-family: var(--font-body);
     font-weight: 700;
     cursor: pointer;
-    border-radius: 30px; /* Pill shape */
+    border-radius: 30px;
     transition: all 0.3s ease;
 }
 
